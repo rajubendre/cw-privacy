@@ -1,94 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy • Creative Wandering Apps</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy – Creative Wandering</title>
+  <meta name="description" content="Privacy Policy for Creative Wandering apps: 52-Cards AI Mind Reader and The Mystical 21 Card Trick." />
   <style>
-    :root {
-      --bg:#0a0a0a; --fg:#eaeaea; --muted:#b3b3b3; --brand:#e5a00b; --card:#131313; --border:#222;
-      --max: 900px;
+    :root{
+      --bg:#0b0b0b; --card:#121212; --ink:#eaeaea; --muted:#b9b9b9; --accent:#e5a00b; --link:#4ea1ff;
+      --maxw:900px;
     }
-    html,body { margin:0; padding:0; background:var(--bg); color:var(--fg); font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
-    a { color: #7fb3ff; }
-    header { padding:48px 20px 16px; border-bottom:1px solid var(--border); background:linear-gradient(180deg,#0d0d0d,#0a0a0a); }
-    .wrap { max-width: var(--max); margin:0 auto; }
-    h1 { font-size: clamp(28px, 4.5vw, 40px); margin: 0 0 6px; letter-spacing:.2px; }
-    p.lead { color: var(--muted); margin: 0 0 6px; }
-    .tag { display:inline-block; background: #1b1b1b; border:1px solid var(--border); padding:6px 10px; border-radius: 999px; font-size: 13px; color: var(--muted); }
-    main { padding: 28px 20px 80px; }
-    section { background: var(--card); border:1px solid var(--border); border-radius: 14px; padding: 18px 18px; margin: 18px 0; }
-    h2 { font-size: 20px; margin: 0 0 8px; color: var(--brand); letter-spacing:.2px; }
-    ul { margin: 8px 0 0 20px; }
-    footer { color: var(--muted); padding: 18px 20px 48px; border-top:1px solid var(--border); }
-    code { background:#1a1a1a; padding: 2px 6px; border-radius:6px; border:1px solid #222; }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:24px;}
+    .langbar{
+      display:flex;flex-wrap:wrap;gap:8px;align-items:center;
+      background:#0f0f0f;border:1px solid #1f1f1f;border-radius:10px;padding:10px 12px;margin:12px 0 20px;
+    }
+    .langbar span{color:var(--muted);margin-right:6px}
+    .langbar a{
+      text-decoration:none;border:1px solid #2a2a2a;background:#161616;color:var(--ink);
+      padding:6px 10px;border-radius:8px;transition:transform .06s ease, border-color .2s ease;
+    }
+    .langbar a:hover{transform:translateY(-1px);border-color:#3a3a3a}
+    .card{
+      background:var(--card);border:1px solid #1f1f1f;border-radius:12px;padding:22px 20px;
+      box-shadow:0 0 0 1px rgba(255,255,255,0.02) inset;
+    }
+    h1{font-size:28px;line-height:1.25;margin:0 0 6px}
+    .sub{color:var(--muted);font-size:14px;margin:0 0 18px}
+    h2{font-size:20px;margin:26px 0 8px}
+    ul{padding-left:20px}
+    a{color:var(--link)}
+    code{background:#1a1a1a;border:1px solid #252525;border-radius:6px;padding:2px 6px}
+    .apps{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 2px}
+    .pill{border:1px solid #2a2a2a;background:#161616;border-radius:999px;padding:6px 10px}
+    .muted{color:var(--muted)}
+    footer{color:var(--muted);font-size:13px;margin-top:16px}
+    .accent{color:var(--accent)}
   </style>
 </head>
 <body>
-  <header>
-    <div class="wrap">
-      <h1>Privacy Policy</h1>
-      <p class="lead">Applies to our Android apps: <strong>52‑Cards AI Mind Reader</strong> (package <code>com.creativewandering.mindreader52</code>) and <strong>The Mystical 21 Card Trick</strong> (package <code>com.creativewandering.mindreader21</code>).</p>
-      <span class="tag">Last updated: August 27, 2025</span>
-    </div>
-  </header>
+  <div class="wrap">
+    <!-- Language switcher -->
+    <nav class="langbar" aria-label="Language selector">
+      <span>View in:</span>
+      <a href="./index.html" aria-current="page">English</a>
+      <a href="./hi.html">हिंदी</a>
+      <a href="./mr.html">मराठी</a>
+      <a href="./kn.html">ಕನ್ನಡ</a>
+    </nav>
 
-  <main class="wrap">
-    <section>
-      <h2>Overview</h2>
-      <p>Creative Wandering (“we”, “us”) values your privacy. Our magic‑trick apps are simple, offline experiences. We do not require you to create an account, and we do not collect, share, or sell your personal data.</p>
-    </section>
+    <div class="card">
+      <h1>Privacy Policy – <span class="accent">Creative Wandering</span></h1>
+      <p class="sub">Applies to our Android apps listed below. Last updated: 28 Aug 2025</p>
 
-    <section>
-      <h2>What data we collect</h2>
+      <h2>Apps Covered</h2>
+      <div class="apps">
+        <div class="pill">52-Cards AI Mind Reader <span class="muted">(package: <code>com.creativewandering.mindreader52</code>)</span></div>
+        <div class="pill">The Mystical 21 Card Trick <span class="muted">(package: <code>com.creativewandering.mindreader21</code>)</span></div>
+      </div>
+
+      <h2>Our Philosophy</h2>
+      <p>These apps perform simple, on-device card effects. We designed them to avoid collecting personal data.</p>
+
+      <h2>Data We Collect</h2>
+      <p><strong>We do not collect, store, sell, or share personal data.</strong> There is no account system, no analytics SDK, and no ads inside the apps.</p>
+
+      <h2>Network Access</h2>
       <ul>
-        <li><strong>Personal data:</strong> <em>None collected.</em></li>
-        <li><strong>Sensitive data:</strong> <em>None collected.</em></li>
-        <li><strong>Usage/analytics:</strong> <em>None collected.</em> We do not use third‑party analytics SDKs.</li>
-        <li><strong>Advertising:</strong> <em>No ads.</em></li>
+        <li>The apps may open a web link (e.g., this policy) or your email app when you tap a contact link.</li>
+        <li>No gameplay data or personal identifiers are sent to our servers.</li>
       </ul>
-      <p>If this policy ever changes to include data collection, we will update this page and the Google Play Data Safety form accordingly.</p>
-    </section>
 
-    <section>
-      <h2>Device permissions</h2>
-      <p>Our current releases do not intentionally request sensitive permissions (camera, microphone, contacts, location). Basic Android permissions required by the app framework may be present to run the app, but the apps do not transmit personal information to our servers (we do not operate any backend for these apps).</p>
-    </section>
+      <h2>Permissions</h2>
+      <p>The apps use only basic permissions required for normal operation (e.g., internet to open links). No sensitive permissions (e.g., contacts, location, microphone) are requested.</p>
 
-    <section>
-      <h2>Payments &amp; refunds</h2>
-      <ul>
-        <li>All purchases are processed by <strong>Google Play</strong>. We do not receive your payment details.</li>
-        <li>Refunds are handled per the <a href="https://support.google.com/googleplay/answer/2479637" target="_blank" rel="noopener">Google Play refund policy</a>. If you need help, contact us and include your order number.</li>
-      </ul>
-    </section>
+      <h2>Children’s Privacy</h2>
+      <p>The apps are suitable for general audiences. We do not knowingly collect data from children.</p>
 
-    <section>
-      <h2>Children’s privacy</h2>
-      <p>Our apps are general‑audience entertainment and are <em>not</em> directed to children under 13. We do not knowingly collect personal information from children.</p>
-    </section>
+      <h2>Changes</h2>
+      <p>If we change this policy, we will update the date above and publish the new version on this page.</p>
 
-    <section>
-      <h2>Security</h2>
-      <p>While these apps do not collect personal data, we still aim to follow reasonable practices to keep the apps safe. No method of transmission or storage is 100% secure, and the apps are provided “as is.”</p>
-    </section>
-
-    <section>
-      <h2>Changes to this policy</h2>
-      <p>We may update this policy as our apps evolve. Material changes will be reflected on this page with a new “Last updated” date.</p>
-    </section>
-
-    <section>
       <h2>Contact</h2>
-      <p>If you have questions about this policy or the apps, please contact:</p>
-      <p><strong>Creative Wandering</strong><br>
-         Karjat, Maharashtra, India<br>
-         Email: <a href="mailto:creativewandering@gmail.com">creativewandering@gmail.com</a></p>
-    </section>
-  </main>
+      <p>Email: <a href="mailto:creativewanderingcw@gmail.com">creativewanderingcw@gmail.com</a></p>
+    </div>
 
-  <footer class="wrap">
-    &copy; 2025 Creative Wandering. All rights reserved.
-  </footer>
+    <footer>
+      © Creative Wandering. This page is the English version. For translations, use the buttons above.
+    </footer>
+  </div>
 </body>
 </html>
